@@ -1994,13 +1994,13 @@ var tempI64;
 // === Body ===
 
 var ASM_CONSTS = {
-  6090928: function() {return Module.webglContextAttributes.premultipliedAlpha;},  
- 6090989: function() {return Module.webglContextAttributes.preserveDrawingBuffer;},  
- 6091053: function() {return Module.webglContextAttributes.powerPreference;},  
- 6091111: function() {Module['emscripten_get_now_backup'] = performance.now;},  
- 6091166: function($0) {performance.now = function() { return $0; };},  
- 6091214: function($0) {performance.now = function() { return $0; };},  
- 6091262: function() {performance.now = Module['emscripten_get_now_backup'];}
+  6091088: function() {return Module.webglContextAttributes.premultipliedAlpha;},  
+ 6091149: function() {return Module.webglContextAttributes.preserveDrawingBuffer;},  
+ 6091213: function() {return Module.webglContextAttributes.powerPreference;},  
+ 6091271: function() {Module['emscripten_get_now_backup'] = performance.now;},  
+ 6091326: function($0) {performance.now = function() { return $0; };},  
+ 6091374: function($0) {performance.now = function() { return $0; };},  
+ 6091422: function() {performance.now = Module['emscripten_get_now_backup'];}
 };
 
 
@@ -4614,7 +4614,7 @@ var ASM_CONSTS = {
   	return !!Module.shouldQuit;
   }
 
-var wr = { requestInstances: {}, nextRequestId: 1, loglevel: 2, responses:{}, timer:{}, requests:{}, abortControllers:{} };
+  var wr = {requestInstances:{},nextRequestId:1,loglevel:2};
   function _JS_WebRequest_Abort(requestId)
   	{
   		var abortController = wr.abortControllers[requestId];
@@ -17726,7 +17726,13 @@ var dynCall_vifiii = Module["dynCall_vifiii"] = createExportWrapper("dynCall_vif
 var dynCall_ifiii = Module["dynCall_ifiii"] = createExportWrapper("dynCall_ifiii");
 
 /** @type {function(...*):?} */
+var dynCall_vidii = Module["dynCall_vidii"] = createExportWrapper("dynCall_vidii");
+
+/** @type {function(...*):?} */
 var dynCall_fifiii = Module["dynCall_fifiii"] = createExportWrapper("dynCall_fifiii");
+
+/** @type {function(...*):?} */
+var dynCall_vidddi = Module["dynCall_vidddi"] = createExportWrapper("dynCall_vidddi");
 
 /** @type {function(...*):?} */
 var dynCall_viiiffi = Module["dynCall_viiiffi"] = createExportWrapper("dynCall_viiiffi");
