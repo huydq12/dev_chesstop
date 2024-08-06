@@ -1,9 +1,9 @@
 const cacheName = "DefaultCompany-Jewel-0.1";
 const contentToCache = [
-    "Build/Jewel.loader.js",
-    "Build/Jewel.framework.js",
-    "Build/Jewel.data",
-    "Build/Jewel.wasm",
+    "Build/jewel.loader.js",
+    "Build/jewel.framework.js",
+    "Build/jewel.data",
+    "Build/jewel.wasm",
     "TemplateData/style.css"
 
 ];
