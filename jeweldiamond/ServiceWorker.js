@@ -1,4 +1,4 @@
-const cacheName = "DefaultCompany-Jewel-0.1";
+const cacheName = "DefaultCompany-Candy-0.1";
 const contentToCache = [
     "Build/jeweldiamond.loader.js",
     "Build/jeweldiamond.framework.js",
